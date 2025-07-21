@@ -1,0 +1,119 @@
+.final {
+  width: 1440px;
+  height: 3833px;
+  background-color: #ffffff;
+  overflow: hidden;
+}
+
+.final .scene {
+  position: relative;
+  width: 1686px;
+  height: 2153px;
+  top: -41px;
+  left: -123px;
+}
+
+.final .overlap-group {
+  position: relative;
+  width: 1537px;
+  height: 2112px;
+  top: 41px;
+  left: 123px;
+}
+
+.final .vector {
+  width: 1440px;
+  height: 303px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.final .img {
+  width: 1440px;
+  height: 1052px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.final .house-right {
+  position: absolute;
+  width: 550px;
+  height: 542px;
+  top: 630px;
+  left: 890px;
+}
+
+.final .house-left {
+  position: absolute;
+  width: 480px;
+  height: 200px;
+  top: 821px;
+  left: 0;
+}
+
+.final .street-bg {
+  position: absolute;
+  width: 1440px;
+  height: 1175px;
+  top: 937px;
+  left: 0;
+}
+
+.final .shadow-house-left {
+  position: absolute;
+  width: 783px;
+  height: 176px;
+  top: 1009px;
+  left: 754px;
+  opacity: 0.63;
+}
+
+.final .vector-2 {
+  width: 686px;
+  height: 176px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.final .light {
+  position: absolute;
+  width: 21px;
+  height: 1156px;
+  top: 157px;
+  left: 1194px;
+}
+
+.final .light-top {
+  position: absolute;
+  width: 130px;
+  height: 94px;
+  top: 87px;
+  left: 1086px;
+}
+
+.final .light-inside {
+  position: absolute;
+  width: 323px;
+  height: 316px;
+  top: 0;
+  left: 1001px;
+}
+
+.final .text-wrapper {
+  position: absolute;
+  height: 285px;
+  top: 114px;
+  left: 190px;
+  filter: blur(1.6px);
+  font-family: "Bebas Neue Pro-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 300px;
+  text-align: center;
+  letter-spacing: -3px;
+  line-height: 285px;
+  white-space: nowrap;
+}
