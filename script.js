@@ -13,7 +13,24 @@ document.querySelectorAll('.fadein').forEach(el => fadeinObserver.observe(el));
 
 
 
+//background-music and the beginning//
+ const overlay = document.getElementById('start-overlay');
+  const audio = document.getElementById('ambient-audio');
+  let started = false;
 
+  function startExperience() {
+    if (!started) {
+      audio.play().catch(err => console.log('Autoplay blocked:', err));
+      overlay.classList.add('fade-out');
+     document.body.classList.remove('no-scroll'); 
+      setTimeout(() => {
+        overlay.remove(); 
+      }, 800);
+      started = true;
+    }
+  }
+
+  overlay.addEventListener('click', startExperience);
 
 
 
