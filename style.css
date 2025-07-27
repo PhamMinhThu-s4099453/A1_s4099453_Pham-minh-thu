@@ -1,0 +1,1933 @@
+body {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: #018fdb;
+}
+
+
+.p {
+  font-size: 48px;
+  font-family: Margarine;
+  color: #fff;
+  z-index: 200;
+}
+body::before {
+  content: "";
+  position: fixed;
+  top: 0; left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("images/grain.png");
+  background-repeat: repeat;
+  opacity: 0.1;
+}
+
+
+
+
+/*scene 1*/
+.fog-l-icon {
+  position: absolute;
+  top: 16px;
+  left: calc(50% - 1290px);
+}
+@keyframes pulsate-fwd {
+  0% {
+    transform: scale(1);
+    transform: scale(1);
+  }
+  50% {
+   transform: scale(1.1);
+    transform: scale(1.1);
+  }
+  100% {
+   transform: scale(1);
+    transform: scale(1);
+  }
+}
+
+.title-icon {
+  position: absolute;
+  top: -213px;
+  left: calc(50% - 1190px);
+  width: 1441px;
+  height: 1025px;
+  object-fit: cover;
+  padding: 110px;
+  z-index: 4;
+
+}
+
+.lightstreet-icon {
+  position: absolute;
+  top: 166px;
+  left: calc(50% - 560px);
+  width: 1642px;
+  height: 1539px;
+  object-fit: cover;
+  z-index: 3;
+}
+
+
+div.light-wrapper {
+  position: absolute;
+  top: -100px;
+  left: calc(50% - 741px);
+  padding: 100px;
+  z-index: 4;
+}
+
+
+
+
+
+.light-scene1-icon {
+  position: absolute;
+  top: 50px;
+  left: calc(50% - 541px);
+  padding: 100px;
+  z-index: 4;
+}
+
+.fog-l-parent {
+  position: absolute;
+  top: 0px;
+  left: 0;
+  background-color: #d3e0ec;
+  width: 100%;
+  height: 900px;
+
+}
+
+
+
+
+
+
+/*scene 2*/
+.shadow-icon {
+  position: absolute;
+  top: -457px;
+  left: -493px;
+  width: 3426px;
+  height: 1025px;
+  object-fit: cover;
+}
+
+.dashline-icon {
+  position: absolute;
+  top: -381px;
+  left: -1279px;
+  width: 3426px;
+  height: 748px;
+  object-fit: cover;
+}
+
+.girl-cross-icon {
+  position: absolute;
+  top: 31px;
+  left: -322px;
+  width: 2491px;
+  height: 1025px;
+  object-fit: contain;
+}
+
+.lightstreet-shadow-icon {
+  position: absolute;
+  top: -10px;
+  left: 632px;
+  width: 825px;
+  height: 679px;
+  object-fit: cover;
+}
+
+.in-this-heat-haze {
+  margin: 0;
+}
+
+.in-this-heat-haze-container {
+  position: absolute;
+  top: 791px;
+  left: 651px;
+  line-height: 141.43%;
+  display: inline-block;
+  width: 1175px;
+  text-shadow: 0px 0px 4.5px #fff;
+}
+
+.shadow-parent {
+  position: absolute;
+  top: 900px;
+  left: calc(50% - 960px);
+  background-color: #018fdb;
+  width: 1920px;
+  height: 1080px;
+
+  text-align: right;
+}
+
+
+
+
+
+
+/*scene 3*/
+.my-fists-are-container {
+  position: absolute;
+  top: 150px;
+  left: 610px;
+  line-height: 141.43%;
+  display: inline-block;
+  width: 197px;
+  text-shadow: 0px 0px 4.5px #fff;
+}
+
+.cloud-1-icon {
+  position: absolute;
+  top: calc(50% - 812.5px);
+  left: calc(50% - 1341px);
+  width: 2682px;
+  height: 1624px;
+  object-fit: cover;
+  z-index: 1;
+
+}
+
+.cloud-1 {
+  position: absolute;
+  top: -74px;
+  right: -354px;
+  width: 2934px;
+  height: 1567px;
+}
+
+.my-fists-are-carved-by-the-dre-parent {
+  position: absolute;
+  top: 1980px;
+  left: calc(50% - 960px);
+  background-color: #018fdb;
+  width: 1920px;
+  height: 1440px;
+
+}
+
+
+.hand-animation-1-icon {
+
+  position: relative;
+  left: 1200px;
+  top: 400px;
+  width: 720px;
+  height: 540px;
+
+}
+
+.animation {
+  z-index: 1;
+}
+
+
+
+
+
+
+/*scene 4*/
+#and-wings-that {
+  position: absolute;
+  top: calc(50% - 272px);
+  left: calc(50% - 231px);
+  line-height: 141.43%;
+  display: inline-block;
+  width: 462px;
+  text-shadow: 0px 0px 4.5px #fff;
+}
+
+.and-wings-that-ache-from-every-wrapper {
+  position: absolute;
+  top: 3400px;
+  left: calc(50% - 960px);
+  background-color: #018fdb;
+  width: 1920px;
+  height: 1080px;
+
+  text-align: center;
+  font-size: 96px;
+}
+
+
+
+
+
+
+
+/*scene 5*/
+.frame-bg-icon {
+  position: absolute;
+  top: 192px;
+  right: -207.95px;
+  width: 1893.4px;
+  height: 993px;
+  object-fit: contain;
+  z-index: 2;
+}
+
+.chase-icon {
+  position: absolute;
+  top: 113px;
+  left: -100px;
+  width: 1389px;
+  height: 988px;
+  object-fit: cover;
+  z-index: 2;
+}
+
+.door-icon {
+  position: absolute;
+  top: 189px;
+  left: -248px;
+  width: 1891.5px;
+  height: 992px;
+  object-fit: contain;
+  z-index: 3;
+}
+
+.scene-5 {
+  position: absolute;
+  top: -72px;
+  left: 30px;
+  width: 1440px;
+  height: 1542px;
+  overflow: hidden;
+}
+
+#i-chase-a {
+  position: absolute;
+  top: 158px;
+  left: 115px;
+  display: inline-block;
+  width: 839px;
+  height: 42px;
+  text-shadow: 0px 0px 4.5px #fff;
+}
+
+
+.scene-5-parent {
+  position: absolute;
+  top: 4300px;
+  left: calc(50% - 960px);
+  background-color: #018fdb;
+  width: 1920px;
+  height: 1080px;
+  overflow: hidden;
+}
+
+
+
+
+
+
+/*scene 6*/
+.shot-down-icon {
+  position: absolute;
+  top: 2px;
+  left: 430px;
+  width: 1441px;
+  height: 1025px;
+  object-fit: cover;
+  z-index: 2;
+}
+
+.bird-fall-icon {
+  position: absolute;
+  top: -147px;
+  left: calc(50% - 538px);
+  width: 1441px;
+  height: 1025px;
+  object-fit: cover;
+
+}
+
+.shot-up-icon {
+  position: absolute;
+  top: -296px;
+  left: 149px;
+  width: 1441px;
+  height: 1025px;
+  object-fit: cover;
+  z-index: 2;
+}
+
+.scene-6 {
+  position: absolute;
+  top: calc(50% - 512px);
+
+  width: 1440px;
+  height: 946px;
+
+  margin: 160px;
+}
+
+.where-scars-like-container {
+  position: absolute;
+  top: 85px;
+  left: 237px;
+  display: inline-block;
+  width: 209px;
+  height: 435px;
+  text-shadow: 0px 0px 4.5px #fff;
+}
+
+.still-i-rise-container {
+  position: absolute;
+  top: 353px;
+  left: 1431px;
+  text-align: right;
+  display: inline-block;
+  width: 246px;
+  text-shadow: 0px 0px 4.5px #fff;
+}
+
+.scene-6-parent {
+  position: absolute;
+  top: 5380px;
+  left: calc(50% - 960px);
+  background-color: #018fdb;
+  width: 2000px;
+  height: 1080px;
+
+}
+
+
+
+
+
+
+
+/*scene 7*/
+.cloud-2-icon {
+  position: absolute;
+  top: 65px;
+  left: calc(50% - 2101px);
+  height: auto;
+  object-fit: contain;
+  z-index: 2;
+  width: 3440px;
+}
+
+.running-icon {
+  position: absolute;
+  top: 413px;
+  left: 263px;
+  width: 1441px;
+  height: 1025px;
+  object-fit: cover;
+  z-index: 3;
+}
+
+.cloud-blue-front-icon {
+  position: absolute;
+  top: 859px;
+  left: calc(50% - 1570px);
+  width: 1441px;
+  height: 1025px;
+  object-fit: contain;
+  z-index: 4;
+}
+
+
+.cloud-white-front-icon {
+  position: absolute;
+  top: 1100px;
+  left: 300px;
+  width: 1459px;
+  height: 748px;
+  object-fit: contain;
+  z-index: 6;
+}
+
+.ribbon-blue-icon {
+  position: absolute;
+  top: -400px;
+  left: calc(50% - 500px);
+  width: 1566.8px;
+  height: 1211.1px;
+  object-fit: contain;
+  z-index: 2;
+}
+
+.ribbon-pink-curve-icon {
+  position: absolute;
+  top: -110px;
+  left: calc(60% - 70px);
+  width: 1000px;
+  height: 1025px;
+  object-fit: contain;
+  z-index: 2;
+  transform: rotate(14deg);
+}
+
+.ribbon-pink-long-icon {
+  position: absolute;
+  top: 77px;
+  left: calc(60% - 490px);
+  width: 1441px;
+  height: 1025px;
+  object-fit: contain;
+  z-index: 2;
+}
+
+.ribbon-yellow-icon {
+  position: absolute;
+  top: 475px;
+  left: 373px;
+  width: 1441px;
+  height: 1025px;
+  object-fit: contain;
+  z-index: 3;
+}
+
+
+.ribbon-pink-short-icon {
+  position: absolute;
+  top: 798px;
+  left: calc(50% - 1590px);
+  width: 1200px;
+  height: 1025px;
+  object-fit: contain;
+  z-index: 4;
+}
+
+.scene-7-parent {
+  position: absolute;
+  top: 6411px;
+  left: calc(50% - 960px);
+  background-color: #018fdb;
+  width: 1920px;
+  height: 2000px;
+  overflow: visible;
+  font-size: 40px;
+}
+
+
+.scene-7 {
+  position: absolute;
+  top: calc(50% - 866px);
+  left: calc(50% - 1287px);
+  width: 2769px;
+  height: 1080px;
+  overflow: visible;
+}
+
+
+.when-time-slows-container {
+  position: absolute;
+  top: 345px;
+  left: calc(50% - 710px);
+  display: inline-block;
+  width: 698px;
+  text-shadow: 0px 0px 4.5px #fff;
+  z-index: 3;
+}
+
+
+
+/*scene 8*/
+.standing-icon {
+  position: absolute;
+  top: 72px;
+  left: calc(50% - 673px);
+  width: 1441px;
+  height: 1025px;
+  object-fit: cover;
+}
+
+div.animation-fire {
+  position: absolute;
+  top: 72px;
+  left: calc(50% - 673px);
+  width: 1441px;
+  height: 1025px;
+}
+
+
+
+
+
+
+
+
+.scene-8 {
+  position: absolute;
+  top: 68px;
+  left: calc(50% - 720px);
+  width: 1440px;
+  height: 1024px;
+  overflow: visible;
+}
+
+#even-if-i {
+  position: absolute;
+  top: 53px;
+  left: 121px;
+  display: inline-block;
+  width: 210px;
+  text-shadow: 0px 0px 4.5px #fff;
+
+}
+
+.my-soul-will-container {
+  position: absolute;
+  top: 357px;
+  left: 1143px;
+  display: inline-block;
+  width: 271px;
+  text-shadow: 0px 0px 4.5px #fff;
+}
+
+.scene-8-parent {
+  position: absolute;
+  top: 8600px;
+  left: calc(50% - 960px);
+  background-color: #018fdb;
+  width: 1920px;
+  height: 1300px;
+  overflow: hidden;
+  text-align: center;
+  font-size: 64px;
+}
+
+
+
+
+
+
+
+/*scene 9*/
+.people-left-icon {
+  position: absolute;
+  top: 87px;
+  left: calc(55% - 1400px);
+  width: 1441px;
+  height: 1025px;
+  object-fit: contain;
+}
+
+.people-right-icon {
+  position: absolute;
+  top: 265px;
+  left: calc(50% - 100px);
+  width: 1441px;
+  height: 1025px;
+  object-fit: contain;
+}
+
+.yellow-silhoutte-icon {
+  position: absolute;
+  top: 295px;
+  left: 520px;
+  width: 1597.4px;
+  height: 1260.2px;
+  object-fit: contain;
+}
+
+.scene-9 {
+  position: absolute;
+  top: -149px;
+  left: calc(50% - 1235px);
+  width: 2470px;
+  height: 1731px;
+  overflow: visible;
+}
+
+.let {
+  font-size: 32px;
+
+}
+
+.span {
+  font-size: 48px;
+}
+
+.their {
+  font-size: 36px;
+}
+
+.maps {
+  font-size: 40px;
+}
+
+.no {
+  font-size: 64px;
+}
+
+.such {
+  font-size: 96px;
+}
+
+.let-their-maps-show-no-such-pa {
+  margin: 0;
+  font-size: 128px;
+}
+
+.let-their-maps-container {
+  position: absolute;
+  top: 579.84px;
+  left: 844px;
+  display: inline-block;
+  width: 1194.1px;
+  height: 287.9px;
+  text-shadow: 0px 0px 4.5px #fff;
+  transform: rotate(-45.8deg);
+  transform-origin: 0 0;
+  z-index: 3;
+}
+
+.to {
+  font-size: 110px;
+}
+
+.ascend {
+  font-size: 128px;
+}
+
+.span3 {
+  font-size: 150px;
+}
+
+.even-limits-can-container {
+  position: absolute;
+  top: 739.73px;
+  left: 424.23px;
+  display: inline-block;
+  width: 1779.7px;
+  height: 155.9px;
+  text-shadow: 0px 0px 4.5px #fff;
+  transform: rotate(6deg);
+  transform-origin: 0 0;
+  z-index: 101;
+}
+
+.scene-9-parent {
+  position: absolute;
+  top: 9967px;
+  left: calc(50% - 960px);
+  background-color: #018fdb;
+  width: 1920px;
+  height: 1280px;
+  overflow: visible;
+  z-index: 20;
+}
+
+
+
+
+div.blank {
+  background-color: #1a2d58;
+  position: absolute;
+  top: 1078px;
+  left: calc(50% - 4990px);
+  width: calc(810% - 100px);
+  height: 510px;
+  z-index: 100;
+  transform: rotate(4deg);
+  overflow: visible;
+}
+
+
+
+
+
+/*scene 10*/
+.bird-flying-icon {
+  position: absolute;
+  top: 20px;
+  left: -242px;
+  width: 1645px;
+  height: 1383px;
+  object-fit: contain;
+  padding: 50px;
+}
+
+.open-umbrella-icon {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 1222px;
+  height: 1734px;
+  object-fit: contain;
+}
+
+.scene-10 {
+  position: absolute;
+  bottom: -114px;
+  left: calc(50% - 585px);
+  width: 1440px;
+  height: 1394px;
+  overflow: visible;
+  top: 660px;
+}
+
+.ill-carry-this {
+  margin: 0;
+  white-space: pre-wrap;
+  font-size: 48px;
+  font-family: 'Margarine';
+  color: #fff;
+}
+
+.ill-carry-this-container {
+  width: 100px;
+  position: relative;
+  top: 503px;
+  left: 150px;
+  display: inline-block;
+  text-shadow: 0px 0px 4.5px #fff;
+  padding: 70px;
+}
+
+
+.in-this-heat-haze {
+  margin: 0;
+  font-size: 48px;
+  font-family: 'Margarine';
+  color: #fff;
+}
+
+
+
+.and-fly-like-container {
+  position: absolute;
+  top: 1398px;
+  left: 1494px;
+  text-align: right;
+  display: inline-block;
+  width: 186px;
+  text-shadow: 0px 0px 4.5px #fff;
+}
+
+.scene-10-parent {
+  position: absolute;
+  top: 11000px;
+  left: calc(50% - 960px);
+  background-color: #018fdb;
+  width: 1920px;
+  height: 1080px;
+  overflow: visible;
+}
+
+.final {
+  width: 100%;
+  position: relative;
+  border-radius: 2px;
+  margin: 0;
+  height: 13000px;
+  overflow: hidden;
+  text-align: left;
+  font-size: 48px;
+  color: #fff;
+  font-family: Margarine;
+}
+
+/*end of positioning*/
+
+
+
+
+
+
+
+
+/*animation for title-fade-in-from-bottom*/
+#fade-in-bottom {
+ animation: fade-in-bottom 2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+  animation: fade-in-bottom 2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+@keyframes fade-in-bottom {
+  0% {
+   transform: translateY(50px);
+    transform: translateY(50px);
+    opacity: 0;
+  }
+
+  100% {
+   transform: translateY(0);
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+
+
+
+
+/*animation for scroll text */
+.fadein {
+  opacity: 0;
+  transform: translateY(50px);
+  transition: opacity 1s ease, transform 1s ease;
+}
+
+.fadein.active {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.and-fly-like-container {
+  transition-delay: 2s;
+}
+
+
+
+
+
+
+/*animation for the fog*/
+.fog-left {
+  opacity: 0;
+  transform: translateX(-100px);
+  animation: fadeInLeft 1s ease forwards;
+}
+
+.fog-delay-1 {
+  animation-delay: 0.3s;
+}
+
+.fog-delay-2 {
+  animation-delay: 0.9s;
+}
+
+.fog-delay-3 {
+  animation-delay: 1.5s;
+}
+
+@keyframes fadeInLeft {
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+
+
+
+
+/*animation for the light in scene 1*/
+.light-wrapper {
+  position: relative;
+  display: inline-block;
+}
+
+/* MAIN glow behind the lightscene1*/
+.light-wrapper::before {
+  content: "";
+  position: absolute;
+  top: 33%;
+  left: 75%;
+  width: 25%;
+  height: 41%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  background: radial-gradient(circle, #ffffcc 30%, transparent 80%);
+  filter: blur(40px) brightness(2);
+  opacity: 0;
+  transition: opacity 0.4s ease;
+  z-index: 0;
+  pointer-events: none;
+}
+
+/* GLOW 1: nearest light spot (biggest, right side) */
+.light-wrapper::after {
+  content: "";
+  position: absolute;
+  top: 70%;
+  left: 53%;
+  /* adjust distance to the right */
+  width: 120px;
+  height: 120px;
+  transform: translateY(-50%);
+  background: radial-gradient(circle, #ffffcc 30%, transparent 80%);
+  filter: blur(30px) brightness(2);
+  border-radius: 50%;
+  opacity: 0;
+  transition: opacity 0.4s ease;
+  pointer-events: none;
+  z-index: 0;
+}
+
+/* GLOW 2: second far glow */
+.light-wrapper span::before {
+  content: "";
+  position: absolute;
+  top: 83%;
+  left: 41%;
+  /* further to the right */
+  width: 70px;
+  height: 70px;
+  transform: translateY(-50%);
+  background: radial-gradient(circle, #ffffcc 30%, transparent 80%);
+  filter: blur(20px) brightness(1.5);
+  border-radius: 50%;
+  opacity: 0;
+  transition: opacity 0.4s ease;
+  pointer-events: none;
+  z-index: 0;
+}
+
+.light-scene1-icon {
+  position: relative;
+  z-index: 1;
+  transition: transform 0.4s ease;
+}
+
+/* HOVER: activate all 3 glows */
+.light-wrapper:hover::before,
+.light-wrapper:hover::after,
+.light-wrapper:hover span::before {
+  opacity: 1;
+}
+
+.light-wrapper:hover .light-scene1-icon {
+  transform: rotate(-6deg);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*animation for flapping bird*/
+.bird-link-container {
+  position: absolute;
+  right: -1vw;
+  top: -5%;
+  transform: translateY(-50%);
+  z-index: 10;
+}
+
+.bird-link {
+  display: block;
+  position: relative;
+  width: 60px;
+  left: calc(300% - 180px);
+  height: 60px;
+  cursor: pointer;
+}
+
+/* Glowing aura */
+.bird-glow {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 194px;
+  left: calc(240% - -107px);
+  background: radial-gradient(circle, rgba(221, 221, 104, 0.4), transparent 70%);
+  border-radius: 50%;
+  filter: blur(15px) brightness(5);
+  opacity: 0.6;
+  z-index: 1;
+  animation: glow-pulse 2s ease-in-out infinite;
+}
+
+/* Bird */
+.bird {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image: url('images/bird.gif');
+  background-size: contain;
+  background-repeat: no-repeat;
+  z-index: 2;
+  animation: flap 1.5s ease-in-out infinite;
+  transition: filter 0.3s ease, transform 0.3s ease;
+}
+
+.bird-link:hover .bird {
+  filter: brightness(1.5);
+  transform: rotate(-8deg) scale(1.05);
+}
+
+.bird-link:hover .bird-glow {
+  filter: blur(20px) brightness(2);
+}
+
+/* Bird flapping (simple tilt) */
+@keyframes flap {
+
+  0%,
+  100% {
+    transform: rotate(0deg);
+  }
+
+  50% {
+    transform: rotate(6deg);
+  }
+}
+
+/* Glow pulse */
+@keyframes glow-pulse {
+
+  0%,
+  100% {
+    opacity: 0.6;
+    transform: scale(1);
+  }
+
+  50% {
+    opacity: 1;
+    transform: scale(1.2);
+  }
+}
+
+
+
+/*bouncy when navigate to and wings that ache from everyfall*/
+
+.and-wings.bounce {
+  animation: bounce-in 0.8s ease;
+}
+
+@keyframes bounce-in {
+  0% {
+    transform: scale(1) translateY(0);
+  }
+
+  30% {
+    transform: scale(1.05) translateY(-10px);
+  }
+
+  50% {
+    transform: scale(0.98) translateY(4px);
+  }
+
+  70% {
+    transform: scale(1.02) translateY(-6px);
+  }
+
+  100% {
+    transform: scale(1) translateY(0);
+  }
+}
+
+
+
+/*animated feather*/
+.set {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  pointer-events: none;
+
+  z-index: 2;
+}
+
+.set div {
+  position: absolute;
+  top: -10%;
+  animation: animate 12s linear infinite;
+  opacity: 0;
+}
+
+.set div:nth-child(1) {
+  left: 10%;
+  transform: scale(0.6);
+  animation-delay: 0s;
+}
+
+.set div:nth-child(2) {
+  left: 40%;
+  transform: scale(0.8);
+  animation-delay: 4s;
+}
+
+.set div:nth-child(3) {
+  left: 65%;
+  transform: scale(1);
+  animation-delay: 2s;
+}
+
+.set div:nth-child(4) {
+  left: 80%;
+  transform: scale(0.7);
+  animation-delay: 6s;
+}
+
+.set div:nth-child(5) {
+  left: -30%;
+  transform: scale(0.95);
+  animation-delay: 1s;
+}
+
+
+.set div:nth-child(6) {
+  left: 20%;
+  transform: scale(0.6);
+  animation-delay: 0s;
+}
+
+.set div:nth-child(7) {
+  left: 2%;
+  transform: scale(0.8);
+  animation-delay: 2.5s;
+}
+
+.set div:nth-child(8) {
+  left: 90%;
+  transform: scale(1);
+  animation-delay: 4.5s;
+}
+
+.set div:nth-child(9) {
+  left: 87%;
+  transform: scale(0.7);
+  animation-delay: 6.8s;
+}
+
+.set div:nth-child(10) {
+  left: 25%;
+  transform: scale(0.9);
+  animation-delay: 1.5s;
+}
+
+
+
+
+
+@keyframes animate {
+  0% {
+    transform: translateY(-100px) rotate(0deg) scale(1);
+    opacity: 0;
+  }
+
+  10% {
+    opacity: 1;
+  }
+
+  50% {
+    transform: translateY(50vh) rotate(90deg) scale(1);
+    opacity: 1;
+  }
+
+  100% {
+    transform: translateY(100vh) rotate(180deg) scale(1);
+    opacity: 0;
+  }
+}
+
+
+
+/* the word "fall" hover*/
+.fall-hover {
+  display: inline-block;
+  transition: transform 0.4s ease-in-out;
+  transform-origin: left center;
+  animation: flicker 1.2s infinite;
+}
+
+.fall-hover:hover {
+  transform: rotate(45deg) translateY(10px);
+  color: #1a2d58;
+  animation: none;
+}
+
+
+/* the word "ache" hover*/
+.ache-flicker {
+  animation: flicker 1.2s;
+
+}
+
+@keyframes flicker {
+
+  0%,
+  100% {
+    opacity: 1;
+  }
+
+  10% {
+    opacity: 0.6;
+  }
+
+  20% {
+    opacity: 0.9;
+  }
+
+  30% {
+    opacity: 0.4;
+  }
+
+  40% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0.3;
+  }
+
+  60% {
+    opacity: 0.9;
+  }
+
+  70% {
+    opacity: 0.5;
+  }
+
+  80% {
+    opacity: 1;
+  }
+
+  90% {
+    opacity: 0.8;
+  }
+}
+
+
+/*girl-chasing animated*/
+.chase-icon {
+  transform: translateX(0);
+  opacity: 0;
+}
+
+.chase-move-right {
+  animation: chaseRight 3s ease-out forwards;
+}
+
+@keyframes chaseRight {
+  to {
+    transform: translateX(200px);
+    /* adjust distance if needed */
+    opacity: 1;
+  }
+}
+
+
+
+
+
+
+
+
+/*bird-falling animated*/
+
+/* default state */
+.shot-up-icon,
+.bird-fall-icon,
+.shot-down-icon {
+  transform: translateY(0);
+  opacity: 0;
+}
+
+/* animated states */
+.shot-up-animate {
+  animation: fall1 0.4s ease-out forwards;
+  animation-delay: 0.4s;
+}
+
+.bird-fall-animate {
+  animation: fall2 0.4s ease-out forwards;
+  animation-delay: 0s;
+}
+
+.shot-down-animate {
+  animation: fall3 0.4s ease-out forwards;
+  animation-delay: 0.8s;
+}
+
+
+/* keyframes */
+@keyframes fall1 {
+  to {
+    transform: translateY(70px);
+    opacity: 1;
+  }
+}
+
+@keyframes fall2 {
+  to {
+    transform: translateY(70px);
+    opacity: 1;
+  }
+}
+
+@keyframes fall3 {
+  to {
+    transform: translateY(70px);
+    opacity: 1;
+  }
+}
+
+
+
+
+/*running girl animated*/
+/* Default state */
+.running-icon {
+  transform: translateX(0);
+  opacity: 0;
+}
+
+/* Animate to right */
+.running-move-right {
+  animation: runRight 1s ease-out forwards;
+
+}
+
+/* Keyframes */
+@keyframes runRight {
+  to {
+    transform: translateX(60px);
+    /* adjust distance if needed */
+    opacity: 1;
+  }
+}
+
+
+
+
+/*ribbon animated*/
+/* Ribbons */
+.ribbon {
+  opacity: 0;
+  transform: translateX(0);
+}
+
+.ribbon-right.animate {
+  animation: fadeInRight 0.8s ease-out forwards;
+}
+
+.ribbon-left.animate {
+  animation: fadeInLeft 0.8s ease-out forwards;
+}
+
+@keyframes fadeInRight {
+  from {
+    transform: translateX(60px);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes fadeInLeft {
+  from {
+    transform: translateX(-60px);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+
+
+/*rain/
+/* === Scene 1 Rain Setup === */
+.fog-l-parent {
+  position: relative;
+  overflow: hidden;
+  /* clip rain */
+}
+
+/* Rain container */
+.rain {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  /* let clicks pass through */
+  z-index: 10;
+  /* adjust as needed so rain is in front of background but behind text */
+}
+
+
+
+
+
+
+
+
+
+
+/* Raindrops */
+
+.rain {
+  position: relative;
+
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  /* So it doesn't block interaction */
+  overflow: hidden;
+  z-index: 100;
+  /* Adjust this depending on your fog/city layers */
+}
+
+
+.raindrop {
+  position: absolute;
+  top: -10%;
+  width: 10px;
+  height: 60px;
+  background: rgba(255, 255, 255, 0.3);
+  animation: rain-fall linear infinite;
+  animation-duration: 0.5s;
+}
+
+/* Random position, delay and speed */
+.raindrop:nth-child(1) {
+  left: 10%;
+  animation-delay: 0s;
+  animation-duration: 0.8s;
+}
+
+.raindrop:nth-child(2) {
+  left: 20%;
+  animation-delay: 0.2s;
+  animation-duration: 1s;
+}
+
+.raindrop:nth-child(3) {
+  left: 30%;
+  animation-delay: 0.1s;
+  animation-duration: 0.9s;
+}
+
+.raindrop:nth-child(4) {
+  left: 40%;
+  animation-delay: 0.3s;
+  animation-duration: 0.7s;
+}
+
+.raindrop:nth-child(5) {
+  left: 50%;
+  animation-delay: 0.4s;
+  animation-duration: 1.1s;
+}
+
+.raindrop:nth-child(6) {
+  left: 60%;
+  animation-delay: 0.15s;
+  animation-duration: 0.95s;
+}
+
+.raindrop:nth-child(7) {
+  left: 70%;
+  animation-delay: 0.05s;
+  animation-duration: 0.75s;
+}
+
+.raindrop:nth-child(8) {
+  left: 80%;
+  animation-delay: 0.25s;
+  animation-duration: 0.85s;
+}
+
+.raindrop:nth-child(9) {
+  left: 90%;
+  animation-delay: 0.35s;
+  animation-duration: 1.05s;
+}
+
+.raindrop:nth-child(10) {
+  left: 95%;
+  animation-delay: 0.45s;
+  animation-duration: 0.65s;
+}
+
+/* Keyframe animation */
+@keyframes rain-fall {
+  0% {
+    top: -10%;
+    opacity: 0.6;
+  }
+
+  100% {
+    top: 110%;
+    opacity: 0;
+  }
+}
+
+
+
+
+
+
+/*people animated-yellow silhoutte hover*/
+.scene-9 {
+  position: relative;
+}
+
+.people-left-icon,
+.people-right-icon {
+  transition: transform 2s ease;
+  position: absolute;
+}
+
+.scene-9:hover .people-left-icon {
+  transform: translateX(-70px);
+
+}
+
+.scene-9:hover .people-right-icon {
+  transform: translateX(70px);
+}
+
+.yellow-silhoutte-icon:hover {
+  filter: drop-shadow(0 0 2px #9b9b5f) drop-shadow(0 0 12px #ffff66);
+}
+
+
+
+/*even limit*/
+.word {
+  opacity: 0;
+  transform: translateX(-30px);
+  display: inline-block;
+  transition: all 0.6s ease;
+}
+
+.scene-9-parent.scrolled-in .word1 {
+  transition-delay: 0.1s;
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.scene-9-parent.scrolled-in .word2 {
+  transition-delay: 0.3s;
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.scene-9-parent.scrolled-in .word3 {
+  transition-delay: 0.5s;
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.scene-9-parent.scrolled-in .word4 {
+  transition-delay: 0.7s;
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.scene-9-parent.scrolled-in .word5 {
+  transition-delay: 0.9s;
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.scene-9-parent.scrolled-in .word6 {
+  transition-delay: 1.1s;
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.scene-9-parent.scrolled-in .word7 {
+  transition-delay: 1.3s;
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.scene-9-parent.scrolled-in .word8 {
+  transition-delay: 1.5s;
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.scene-9-parent.scrolled-in .word9 {
+  transition-delay: 1.7s;
+  opacity: 1;
+  transform: translateX(0);
+}
+
+
+
+
+/*bird-flying last scence*/
+@keyframes fadeInFromLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-100px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.bird-flying-icon {
+  animation: fadeInFromLeft 1.5s ease-out forwards;
+  /* Optional delay to sync with scroll or other elements */
+  animation-delay: 0.3s;
+  opacity: 0;
+  /* Start hidden */
+}
+
+.fadein-from-left {
+  opacity: 0;
+  transform: translateX(-100px);
+  transition: opacity 1.5s ease-out, transform 1.5s ease-out;
+}
+
+.fadein-from-left.show {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+
+
+
+
+/*fire mov on click*/
+.fadeable {
+  transition: opacity 1s ease;
+  opacity: 1;
+}
+
+.fade-out {
+  opacity: 0;
+}
+
+.fade-in {
+  display: block;
+  opacity: 0;
+  animation: fadeIn 1s forwards;
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
+
+
+/*spark*/
+.spark-glow {
+  position: absolute;
+  width: 60px;
+  height: 48px;
+  background: radial-gradient(circle, rgb(240, 240, 153) 0%, transparent 70%);
+  border-radius: 50%;
+  top: 38%;
+  left: 86%;
+  box-shadow: 0 0 10px 5px #fff59d;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+  animation: pulseGlow 2s infinite ease-in-out;
+
+  z-index: 5;
+}
+
+/* Brighter glow on hover */
+.spark-glow:hover {
+  box-shadow: 0 0 30px 15px #fff176;
+}
+
+/* Glowing circles */
+.spark-glow::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 10px;
+  height: 10px;
+  background: rgba(255, 255, 255, 0.7);
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+  animation: pulse 1s ease-out infinite;
+  opacity: 0;
+}
+
+.spark-glow:hover::after {
+  opacity: 1;
+}
+
+@keyframes pulse {
+  0% {
+    transform: translate(-50%, -50%) scale(1);
+    opacity: 0.7;
+  }
+
+  100% {
+    transform: translate(-50%, -50%) scale(6);
+    opacity: 0;
+  }
+}
+
+
+
+
+
+
+
+/*girl blue shadow  attention*/
+.pulsate-fwd {
+  animation: pulsate-fwd 1s ease-in infinite alternate both;
+  animation: pulsate-fwd 1s ease-in infinite alternate both;
+}
+
+@keyframes pulsate-fwd {
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+
+  50% {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+
+@keyframes pulsate-fwd {
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+
+  50% {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+
+
+
+
+
+/*confetti*/
+.confetti-container {
+  position: absolute;
+  top: 320px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  overflow: visible;
+  z-index: 5;
+  transform: rotate(15deg);
+}
+
+.confetti {
+  position: absolute;
+  width: 8px;
+  height: 12px;
+  background-color: red;
+  opacity: 0.8;
+  transform: rotate(0deg);
+  border-radius: 2px;
+  animation: confetti-fall linear forwards;
+}
+
+@keyframes confetti-fall {
+  0% {
+    transform: translateY(0) rotate(0deg);
+    opacity: 1;
+  }
+
+  100% {
+    transform: translateY(100vh) rotate(360deg);
+    opacity: 0;
+  }
+}
+
+
+
+/*glowing particles at the end*/
+.particles-scene10 {
+  position: absolute;
+  top: 0;
+  left: -385px;
+  width: 100vw;
+  height: 100vh;
+  pointer-events: none;
+  z-index: 5;
+  overflow: visible;
+}
+
+.particle {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(255, 255, 255, 0.8) 0%, rgba(245, 228, 228, 0) 70%);
+  animation: floatUp 5s linear forwards, flicker 1s infinite ease-in-out;
+  opacity: 0.8;
+  box-shadow:
+    0 0 8px 4px rgba(255, 255, 255, 0.8),
+    0 0 16px 8px rgba(255, 255, 255, 0.5);
+}
+
+
+@keyframes flicker {
+
+  0%,
+  100% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0.6;
+  }
+}
+
+
+@keyframes floatUp {
+  0% {
+    transform: translateY(0) scale(1);
+    opacity: 0.8;
+  }
+
+  100% {
+    transform: translateY(-100vh) scale(0.5);
+    opacity: 0;
+  }
+}
+
+
+/*grain*/
+body::before {
+  content: "";
+  position: fixed;
+  top: 0; left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("images/grain.png");
+  background-repeat: repeat;
+  opacity: 10;
+  pointer-events: none;
+  z-index: 9999;
+   mix-blend-mode: overlay;
+  background-color: #424f6e;
+}
+
