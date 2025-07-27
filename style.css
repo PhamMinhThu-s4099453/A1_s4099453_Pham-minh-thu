@@ -102,6 +102,14 @@ div.light-wrapper {
 }
 
 
+.city-icon {
+  position: absolute;
+  top: 435px;
+  left: calc(50% - 1531px);
+  width: auto;
+  height: 900px;
+}
+
 
 
 
